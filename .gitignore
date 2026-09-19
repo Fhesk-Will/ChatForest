@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+
+# Backend data — contains API keys and user canvas data
+backend/data/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Volar / vue-tsc compiled JS cache files
+frontend/src/**/*.js
+frontend/src/**/*.vue.js
+frontend/src/**/*.ts.js
+frontend/src/**/*.js.map
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code (local settings)
+.claude/
+# 个人 AI 配置（含本地路径和私人邮箱，不随开源仓库公开）
+CLAUDE.md
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Service runtime (service.sh)
+logs/
+*.pid
